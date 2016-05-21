@@ -2,7 +2,9 @@ AutoSlider = React.createClass({
   render (){
     return (
       <div>
-        <div className="banner"></div>
+        <div className="banner">
+          <p className="welcome-text">Whether you would like to spend your life making beautiful and meaningful things, or make sure that your life itself is beautiful and meaningful, our application will certainly be a wonderful partner throughout your life.</p>
+        </div>
       </div>
 
 
@@ -117,7 +119,7 @@ StaticSlider = React.createClass({
       <label htmlFor="img-1" className="nav-dot" id="img-dot-1"></label>
       <label htmlFor="img-2" className="nav-dot" id="img-dot-2"></label>
       <label htmlFor="img-3" className="nav-dot" id="img-dot-3"></label>
-      
+
     </li>
 </ul>
 		)
