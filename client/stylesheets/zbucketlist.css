@@ -2,7 +2,7 @@
 /*@media screen and (max-width: 768px)
 {body {padding-top: 0px;}}
 */
-body {
+/*body {
   font-family: sans-serif;
   background-color: #315481;
   background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cde6f9),color-stop(1, #81a8cb));
@@ -17,7 +17,20 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
+}*/
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
 }
+
+#banner {
+  height: 400px;
+  background: url('https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d2caa73026ef83d5701e1d6d3f1957a6');
+  background-size: cover;
+}
+
+.text-container p {color: black;}
 
 .bucketlist p {
   font-weight: bold;
