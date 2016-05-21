@@ -21,7 +21,12 @@ body {
 
 }
 
-#banner {
+.sign-in {
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.banner {
   height: 500px;
   background: url('https://images.unsplash.com/photo-1450149632596-3ef25a62011a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=8955201cf904a73e41fd71d17af064c2');
   background-size: cover;
