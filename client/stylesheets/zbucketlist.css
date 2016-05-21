@@ -2,27 +2,25 @@
 /*@media screen and (max-width: 768px)
 {body {padding-top: 0px;}}
 */
-/*body {
-  font-family: sans-serif;
-  background-color: #315481;
-  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cde6f9),color-stop(1, #81a8cb));
+body {
+  /*background-color: #315481;*/
+  /*background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cde6f9),color-stop(1, #81a8cb));*/
   background-attachment: fixed;
-  padding-top: 60px;
+  padding-top: 50px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-repeat: no-repeat;
-  padding: 0;
+  /*padding: 0;*/
   margin: 0;
   font-size: 14px;
-}*/
-
-body {
   font-family: 'Ubuntu', sans-serif;
   color: black;
+
 }
+
 
 #banner {
   height: 400px;
@@ -30,7 +28,6 @@ body {
   background-size: cover;
 }
 
-.text-container p {color: black;}
 
 .bucketlist p {
   font-weight: bold;
@@ -189,7 +186,7 @@ header .hide-completed {
 
 .text-container{
   width: 70%;
-  color: white;
+  color: black;
   margin: 5px;
   margin-left: 220px;
   /*background-color: white;*/

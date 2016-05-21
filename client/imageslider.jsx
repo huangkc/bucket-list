@@ -3,7 +3,6 @@ AutoSlider = React.createClass({
     return (
       <div>
         <div id="banner">
-
         </div>
       </div>
 
