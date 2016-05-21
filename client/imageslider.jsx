@@ -82,7 +82,7 @@ StaticSlider = React.createClass({
     <input type="radio" name="radio-btn" id="img-1" defaultChecked />
     <li className="slide-container">
 		<div className="slide">
-			<img src="https://images.unsplash.com/photo-1450149632596-3ef25a62011a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=8955201cf904a73e41fd71d17af064c2"/>
+			<img src="https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1075&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2150"/>
         </div>
 		<div className="nav">
 			<label htmlFor="img-6" className="prev">&#x2039;</label>
@@ -93,7 +93,7 @@ StaticSlider = React.createClass({
     <input type="radio" name="radio-btn" id="img-2" />
     <li className="slide-container">
         <div className="slide">
-        	<img src="https://images.unsplash.com/photo-1445455993942-545627632166?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=fd41e8f19107652e45e1bdc35df3a92b" />
+        	<img src="https://images.unsplash.com/photo-1443916765281-9937110585db?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1425" />
         </div>
 		<div className="nav">
 			<label htmlFor="img-1" className="prev">&#x2039;</label>
@@ -104,7 +104,7 @@ StaticSlider = React.createClass({
     <input type="radio" name="radio-btn" id="img-3" />
     <li className="slide-container">
         <div className="slide">
-        	<img src="https://images.unsplash.com/photo-1454991727061-be514eae86f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=7492bfdac7bee7d5b8e5a957625fe13f"/>
+        	<img src="https://images.unsplash.com/photo-1454942901704-3c44c11b2ad1?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1075&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2150"/>
         </div>
 		<div className="nav">
 			<label htmlFor="img-2" className="prev">&#x2039;</label>
@@ -112,46 +112,11 @@ StaticSlider = React.createClass({
 		</div>
     </li>
 
-    <input type="radio" name="radio-btn" id="img-4" />
-    <li className="slide-container">
-        <div className="slide">
-        	<img src="https://images.unsplash.com/photo-1454942901704-3c44c11b2ad1?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1075&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2150"/>
-        </div>
-		<div className="nav">
-			<label htmlFor="img-3" className="prev">&#x2039;</label>
-			<label htmlFor="img-5" className="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-5" />
-    <li className="slide-container">
-        <div className="slide">
-        	<img src="https://images.unsplash.com/photo-1443916765281-9937110585db?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1425" />
-        </div>
-		<div className="nav">
-			<label htmlFor="img-4" className="prev">&#x2039;</label>
-			<label htmlFor="img-6" className="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-6" />
-    <li className="slide-container">
-        <div className="slide">
-					<img src="https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1075&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2150"/>
-        </div>
-		<div className="nav">
-			<label htmlFor="img-5" className="prev">&#x2039;</label>
-			<label htmlFor="img-1" className="next">&#x203a;</label>
-		</div>
-    </li>
 
     <li className="nav-dots">
       <label htmlFor="img-1" className="nav-dot" id="img-dot-1"></label>
       <label htmlFor="img-2" className="nav-dot" id="img-dot-2"></label>
       <label htmlFor="img-3" className="nav-dot" id="img-dot-3"></label>
-      <label htmlFor="img-4" className="nav-dot" id="img-dot-4"></label>
-      <label htmlFor="img-5" className="nav-dot" id="img-dot-5"></label>
-      <label htmlFor="img-6" className="nav-dot" id="img-dot-6"></label>
     </li>
 </ul>
 		)
