@@ -3,7 +3,7 @@ AutoSlider = React.createClass({
     return (
       <div>
         <div className="banner">
-          <p className="welcome-text">Whether you would like to spend your life making beautiful and meaningful things, or make sure that your life itself is beautiful and meaningful, our application will certainly be a wonderful partner throughout your life.</p>
+          <p className="welcome-text">Whether you would like to spend your life making beautiful and meaningful things, or make sure that your life itself is beautiful and meaningful, the Bucket List will be a wonderful partner throughout your life.</p>
         </div>
       </div>
 
