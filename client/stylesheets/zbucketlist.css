@@ -6,7 +6,7 @@ body {
   /*background-color: #315481;*/
   /*background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cde6f9),color-stop(1, #81a8cb));*/
   background-attachment: fixed;
-  padding-top: 45px;
+  padding-top: 50px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -18,8 +18,8 @@ body {
   font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
   color: black;
-
 }
+
 
 .sign-in {
   padding: 50px;
