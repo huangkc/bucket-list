@@ -65,13 +65,16 @@ Navbar = React.createClass({
 			        <span className="icon-bar"></span>
 			        <span className="icon-bar"></span>
 			      </button>
-			      <a onClick={this.renderLandingPage} className="navbar-brand glyphicon glyphicon-fire" href="#"></a>
+
+
 			    </div>
 			    <div className="collapse navbar-collapse" id="myNavbar">
 
 			      <ul className="nav navbar-nav">
+			      	<li><a onClick={this.renderLandingPage} class="navbar-brand glyphicon glyphicon-fire" href="#">BUCKET LIST</a></li>
+
 							<li className= "Active" role="presentation"><a href="#" onClick={this.renderHome}>Home</a></li>
-							<li role="presentation"><a href="#" onClick={this.renderBucketList}>Personal Bucket List</a></li>
+							<li role="presentation"><a href="#" onClick={this.renderBucketList}>My Profile</a></li>
 							// <li role="presentation"><a href="#" onClick={this.renderEvents}></a></li>
 
 			      </ul>
