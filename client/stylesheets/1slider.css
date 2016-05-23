@@ -3,8 +3,9 @@
 .slides {
     list-style: disc outside none;
     padding: 0;
-    width: 609px;
-    height: 420px;
+    /*width: 609px;*/
+    /*height: 420px;*/
+    height: 430px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -27,15 +28,16 @@
     padding: 0;
     border-bottom: none;
     display: block;
-    max-width: 900px;
+    /*max-width: 900px;*/
     width: 100%;
 }
 
 .slide {
     top: 0;
     opacity: 0;
-    width: 609px;
-    height: 420px;
+    /*width: 609px;*/
+    /*height: 420px;*/
+    height: 500px;
     display: block;
     position: absolute;
     transform: scale(0);
@@ -49,7 +51,8 @@
 
 .nav label {
     width: 200px;
-    height: 100%;
+    /*height: 100%;*/
+    height: 500px;
     display: none;
     position: absolute;
     opacity: 0;
