@@ -114,11 +114,46 @@ StaticSlider = React.createClass({
 		</div>
     </li>
 
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li className="slide-container">
+        <div className="slide">
+          <img src="https://images.unsplash.com/photo-1463962549367-83071ab2618f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=19e8807bd14777711d1da3f32b2f6fee"/>
+        </div>
+    <div className="nav">
+      <label htmlFor="img-3" className="prev">&#x2039;</label>
+      <label htmlFor="img-5" className="next">&#x203a;</label>
+    </div>
+    </li>
+
+<input type="radio" name="radio-btn" id="img-5" />
+    <li className="slide-container">
+        <div className="slide">
+          <img src="https://images.unsplash.com/photo-1463790452759-ce66b98dfca2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=86630d51c790752eea9b2611800b5e2a" />
+        </div>
+    <div className="nav">
+      <label htmlFor="img-4" className="prev">&#x2039;</label>
+      <label htmlFor="img-6" className="next">&#x203a;</label>
+    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li className="slide-container">
+        <div className="slide">
+          <img src="https://images.unsplash.com/photo-1463780324318-d1a8ddc05a11?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c03bef35e32083ae966f091e2a5e27c9"/>
+        </div>
+    <div className="nav">
+      <label htmlFor="img-5" className="prev">&#x2039;</label>
+      <label htmlFor="img-1" className="next">&#x203a;</label>
+    </div>
+    </li>
 
     <li className="nav-dots">
       <label htmlFor="img-1" className="nav-dot" id="img-dot-1"></label>
       <label htmlFor="img-2" className="nav-dot" id="img-dot-2"></label>
       <label htmlFor="img-3" className="nav-dot" id="img-dot-3"></label>
+      <label htmlFor="img-4" className="nav-dot" id="img-dot-4"></label>
+      <label htmlFor="img-5" className="nav-dot" id="img-dot-5"></label>
+      <label htmlFor="img-6" className="nav-dot" id="img-dot-6"></label>
 
     </li>
 </ul>
