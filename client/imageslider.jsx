@@ -6,14 +6,10 @@ AutoSlider = React.createClass({
           <p className="welcome-text">Whether you would like to spend your life making beautiful and meaningful things, or make sure that your life itself is beautiful and meaningful, the Bucket List will be a wonderful partner throughout your life.</p>
         </div>
       </div>
-
-
       )
-
   }
 
 })
-
 
 // AutoSlider = React.createClass({
 // render (){
@@ -80,12 +76,14 @@ AutoSlider = React.createClass({
 StaticSlider = React.createClass({
 	render (){
 		return (
+
+    <div>
 		<ul className="slides">
     <input type="radio" name="radio-btn" id="img-1" defaultChecked />
     <li className="slide-container">
 		<div className="slide">
 			<img src="https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1075&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2150"/>
-        </div>
+    </div>
 		<div className="nav">
 			<label htmlFor="img-6" className="prev">&#x2039;</label>
 			<label htmlFor="img-2" className="next">&#x203a;</label>
@@ -156,8 +154,10 @@ StaticSlider = React.createClass({
       <label htmlFor="img-6" className="nav-dot" id="img-dot-6"></label>
 
     </li>
-</ul>
-		)
+  </ul>
+  </div>
+
+	)
 	}
 })
 

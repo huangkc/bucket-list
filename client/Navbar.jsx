@@ -66,11 +66,11 @@ Navbar = React.createClass({
 			        <span className="icon-bar"></span>
 			      </button>
 
-
 			    </div>
 			    <div className="collapse navbar-collapse" id="myNavbar">
 
 			      <ul className="nav navbar-nav">
+
 			      	<li><a onClick={this.renderLandingPage} class="navbar-brand glyphicon glyphicon-fire" href="#">BUCKET LIST</a></li>
 
 							<li className= "Active" role="presentation"><a href="#" onClick={this.renderHome}>Home</a></li>
